@@ -202,26 +202,37 @@ section {
 /* footer css start */
 footer {
   padding: 20px 0px;
-  background: #294D1F;
+  background: linear-gradient(#00000000,#00000035),url(../img/fruits/footerbanner3.jpg) no-repeat center center/cover;
 
-  color: #fff;
+  color: #151515;
   text-align: center;
   font-size: 18px;
 }
 .footer-img img{
   height: 200px;
-  background: #fff;
+  /* filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px); */
+
+  /* background: #fff;
   padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 5px; */
+  
+  
 }
 
-.footer-icons {
-  font-size: 40px;
-  margin-bottom: 20px;
+.footer-icons ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icons img {
+width: 40px;
+  margin: 20px 0px;
+
 }
 .footer-icons a {
-  color: #fff;
+  
+  color: #284f2e;
+  /* color: #294D1F; */
 }
 /* end of footer css */
 
