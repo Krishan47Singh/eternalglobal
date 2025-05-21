@@ -44,8 +44,9 @@ section {
 
 #fruit-banner {
   height: 100vh;
-  background: linear-gradient(#0000007e, #86ea5b63),
-    url(../img/fruits/fbanner4.jpg) no-repeat center center/cover;
+  /* background: 
+    url(../img/fruits/logistic4.jpg) no-repeat center center/cover; */
+    background: linear-gradient(#0000007e, #86ea5b6c), url(../img/fruits/logistic4.jpg) no-repeat center center/cover;
 }
 #fruit-banner .logo img {
   border-radius: 5px;
@@ -65,10 +66,16 @@ section {
 .banner-text {
   text-align: center;
   position: absolute;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.banner-text h4{
+  font-weight: 600;
+  padding: 2px 0px;
+  background: #fff;
+  font-family: "Comic Relief", system-ui;
+  color: #294d1f;
 }
 .banner-text p {
   font-family: "Comic Relief", system-ui;
@@ -77,15 +84,12 @@ section {
 }
 
 .social-icons .icon {
-  border: 3px solid #27ca27;
-  border-radius: 50%;
-  padding: 4px 10px;
-  font-size: 20px;
-  margin: 10px;
+  font-size: 30px;
+  margin-right: 40px;
 }
 
 .social-icons .icon a {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* service card-heading css */
@@ -118,8 +122,8 @@ section {
 }
 
 .service-card:hover .card-img {
-  transition: 3s ease-in-out;
-  transform: scale(1.1);
+  transition: 2s ease-in-out;
+  transform: scale(1.2);
 }
 
 .service-card .card-content {
@@ -130,7 +134,7 @@ section {
   display: flex;
   justify-content: end;
   align-items: baseline;
-  padding: 0px 0px 25px 25px;
+  padding: 0px 0px 10px 20px;
   flex-direction: column;
   background: linear-gradient(
     rgba(255, 253, 253, 0.171),
@@ -138,23 +142,27 @@ section {
   );
 }
 
-.service-card .card-content h3 {
+/* .service-card .card-content h3 {
   font-size: 24px;
   font-weight: 600;
   font-family: Libre Baskerville, serif;
   margin-bottom: 15px;
   color: #fff;
   letter-spacing: 1px;
-}
+} */
+
 
 .service-card .card-content .btn-imp-exp {
+  font-size: 24px;
   font-family: Libre Baskerville, serif;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  line-height: 1;
   text-align: center;
-  background: #fff;
-  color: #0c0c0c;
+  background: #294d1f;
+  color: #eef704;
+  font-weight: 600;
+
   position: relative;
-  border: 1px solid #fff;
   padding: 12px 30px;
   transition: 0.5s ease-in-out;
 }
@@ -186,25 +194,26 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: transparent; */
-  background-color: #355725aa;
-  color: #fff !important;
+  color: #000 !important;
 }
 
 /* --------------  end of service card   -------------------- */
 
 /* footer css start */
 footer {
-  padding: 150px 0px;
-  background: linear-gradient(
-      rgba(233, 176, 30, 0.245),
-      rgba(28, 43, 21, 0.903)
-    ),
-    url(../img/fruits/footerbanner2.webp) no-repeat center center/cover;
+  padding: 20px 0px;
+  background: #294D1F;
 
   color: #fff;
   text-align: center;
   font-size: 18px;
+}
+.footer-img img{
+  height: 200px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .footer-icons {
